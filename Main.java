@@ -12,20 +12,20 @@ public class Main
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Introduce el número a");
-		int a = sc.nextInt();
+		double a = sc.nextDouble();
 		
 		System.out.println("Introduce el número b");
-		int b = sc.nextInt();
+		double b = sc.nextDouble();
 		
 		System.out.println("Introduce el número c");
-		int c = sc.nextInt();
+		double c = sc.nextDouble();
 		
 		sc.close();
 		
 		resolve(a,b,c);
 	}
 	
-	public static void resolve(int a, int b, int c){
+	public static void resolve(double a, double b, double c){
 	    
 	    
 	    double raiz = ((b*b) - (4*a*c));
@@ -33,9 +33,10 @@ public class Main
 	    double sol2 = (-b - Math.sqrt(raiz)) / (2*a);
 	    if ( raiz < 0) {
 	        raiz = -raiz;
-	        double real1 = -b / (2*a);
+	        double real = (-b / (2*a));
 	        double img1 = Math.sqrt(raiz) / (2*a);
-	        System.out.println("La primera solución imaginaria es: "+ real1 + " + "+ img1 + "i");
+	        System.out.println("La primera solución imaginaria es: "+ real + " + "+ img1 + "i");
+	        System.out.println("La segunda solución imaginaria es: "+ real + " - "+ img1 + "i");
 	    } else {
 	        System.out.println("La primera solución es: "+ sol1);
 	        System.out.println("La segunda solución es: "+ sol2);;

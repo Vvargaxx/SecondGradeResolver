@@ -1,9 +1,7 @@
 /******************************************************************************
+Calculadora de ecuaciones de Segundo Grado.
 
-                            Online Java Compiler.
-                Code, Compile, Run and Debug java program online.
-Write your code in this editor and press "Run" button to execute it.
-
+Por terminar la parte de las ecuaciones con soluciones imaginarias. 
 *******************************************************************************/
 import java.util.*;
 

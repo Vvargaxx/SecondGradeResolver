@@ -41,6 +41,6 @@ public class Main
 	        System.out.println("La primera solución es: "+ sol1);
 	        System.out.println("La segunda solución es: "+ sol2);
 	    }
-	    System.out.println("Gracias por venir");
+	    System.out.println("Gracias por venir, simpático");
 	}
 }

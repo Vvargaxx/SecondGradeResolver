@@ -5,7 +5,7 @@ Por terminar la parte de las ecuaciones con soluciones imaginarias.
 *******************************************************************************/
 import java.util.*;
 
-public class Main
+public class SecondGradeResolver
 {
 	public static void main(String[] args) {
 		System.out.println("Bienvenido a la calculadora de ecuaciones de segundo grado. \n");
